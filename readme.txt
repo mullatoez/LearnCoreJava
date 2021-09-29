@@ -6,12 +6,36 @@
             public Class Animal(){
             String name = "Cat";
             }
-        Object - Is an instance of class. It has states & behaviours.
+            A class can contain:
+            - Fields
+            - Methods - a method is like a function which is used to expose the behavior of an object.
+                    There are two types of methods
+                        1. Pre-defined methods - methods already defined in Java class libraries e.g length(),compareTo(),sqrt()
+                        2. User-defined methods - methods written by a programmer
+
+                        Abstract methods - methods without implementation,created in an abstract class using abstract keyword
+                    -- Method declaration --
+                    It has access modifier e.g public/private
+                    Return type e.g int,String, void,list
+                    Name of the method
+                    parameter list
+                    method body/signature
+            - Constructors
+            - Blocks
+            - Nested class and interface
+
+        Object - Is an instance of class. It has states, behaviours & identity.
             e.g
             Animal animal = new Animal();
             animal.name;
             System.out.println(animal.name);
             // Cat
+            -- state --
+            represents the data of the object
+            -- behaviour --
+            represents the responsibility/functionality of an object such as withdraw/deposit
+
+
 3. OOP Concepts
         1. Abstraction -
         Abstraction helps in displaying only the information needed and hides the unnecessary
@@ -29,4 +53,37 @@
         setter method.
 4. String methods e.g isBlank
 5. Java Collections i.e lists,sets, maps
-6.
+6. Java Naming conventions
+        - Is the rule to follow when naming your identifiers such as class,variables,constant,package,methods.
+        -- Class, Interfaces --
+        Should start with uppercase
+        Should be a noun
+        Should use appropriate words not acronyms
+        e.g
+        class Employee(){
+
+        }
+        -- Methods --
+        Should start with lowercase letter
+        Should be a verb like draw(),print(),println()
+        If the name contains multiple words, start it with a lowercase letter followed by an uppercase letter
+        such as actionPerformed().
+        -- Variables --
+        Should start with lowercase
+        Don't use special characters like &(ampersand),$(dollar),_(underscore)
+        -- package --
+        Should start with lowercase
+        -- constants --
+        It should be in uppercase letters such as RED, YELLOW.
+        If the name contains multiple words, it should be separated by an underscore(_) such as MAX_PRIORITY.
+7. Constructor
+        is a block of codes similar to the method. It is called when an instance of the class
+        is created. At the time of calling constructor, memory for the object is allocated in the memory.
+        Every time an object is created using the new() keyword, at least one constructor is called.
+                -- Rules for creating a constructor --
+                1. Its name must be same as its class name
+                2. Must not have explicit return type
+                3. Cannot be abstract,static,final or synchronized
+                -- Types of java Constructors --
+                1. Default Constructor (No-arg constructor)
+                2. Parameterized Constructor
