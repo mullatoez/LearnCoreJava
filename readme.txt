@@ -86,4 +86,31 @@
                 3. Cannot be abstract,static,final or synchronized
                 -- Types of java Constructors --
                 1. Default Constructor (No-arg constructor)
+                    Q. What is the purpose of default constructor?
+                    A. Used to provide default values to the object like 0, null depending on the type.
                 2. Parameterized Constructor
+
+        Difference between constructor and method in Java
+        1. Constructor is used initialise the state of an object. -> 1.Method exposes the behaviour of an object
+        2. A constructor must not have a return type. -> 2. A method must have a return type
+
+8. Static keyword
+        Helps us efficiently manage memory
+        Generally, if you want to access variables or methods inside a class, you first need to create an
+        instance or object of that class. With static that is not the case
+
+9. ABSTRACT CLASSES & METHODS
+        Abstract class -> is a class that is declared abstract. It may or may not contain abstract methods.
+        e.g
+        Sometimes we may come across a situation where we cannot provide
+        implementation to all the methods in a class. We want to leave the
+        implementation to a class that extends it. In such case we declare a class
+        as abstract.To make a class abstract we use key word abstract.
+        Any class that contains one or more abstract methods is declared as abstract.
+        If we don’t declare class as abstract which contains abstract methods we get
+        compile time error.
+
+        1)Abstract classes cannot be instantiated i.e ClassOne one = new ClassOne(); XXX
+        2)An abstract classes contains abstract method, concrete methods or both.
+        3)Any class which extends abstract class must override all methods of abstract class i.e provide implementations
+        4)An abstract class can contain either 0 or more abstract method.
