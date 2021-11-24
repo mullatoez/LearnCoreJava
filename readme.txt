@@ -1,12 +1,24 @@
 <--!     Learn Core Java   -->
 1. Variables
     Data types
-        1. Byte - ranges from -127 to 127
+        1. Byte (byte) - ranges from -128 to 127
             it is 8 bits
             primitive data type - meaning it comes packaged with java
-            no special tasks are needed to use it.
+            no special tasks are needed to use it. You can use it to save memory when you are
+            the output will be between the -128 to 127 range
             declared this way
                 byte a = 100;
+        2. Short (short) - ranges from -32768 to 32767
+            it is 16 bits
+            two times smaller than integer
+            declared this way
+                short a = 10000;
+
+        3. Integer (int) - ranges from -2,147,483648 to 2,147,483,647
+            preferred data type that is used when dealing with numeric values
+            it is 32 bits
+            declared this way
+                long a = 200000000;
 
 2. Classes & Objects
         Class - A class is a user defined blueprint or prototype from which objects are created.
