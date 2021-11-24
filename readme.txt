@@ -1,5 +1,13 @@
 <--!     Learn Core Java   -->
 1. Variables
+    Data types
+        1. Byte - ranges from -127 to 127
+            it is 8 bits
+            primitive data type - meaning it comes packaged with java
+            no special tasks are needed to use it.
+            declared this way
+                byte a = 100;
+
 2. Classes & Objects
         Class - A class is a user defined blueprint or prototype from which objects are created.
             e.g
