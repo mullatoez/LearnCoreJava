@@ -134,3 +134,16 @@
         2)An abstract classes contains abstract method, concrete methods or both.
         3)Any class which extends abstract class must override all methods of abstract class i.e provide implementations
         4)An abstract class can contain either 0 or more abstract method.
+
+10. Java Type casting:
+        - Widening Casting - (automatic) converting a smaller type to a large type.
+            e.g byte -> short -> char -> int -> long -> float -> double
+
+            int myInt = 9;
+            double myDouble = myInt; This is automatic casting
+
+        - Narrowing Casting - (manually) converting a larger data type to a smaller data type.
+            e.g double -> float -> long -> int -> char -> short -> byte
+
+            double myDouble = 8.0;
+            int myInt = (int) myDouble; // manual casting
