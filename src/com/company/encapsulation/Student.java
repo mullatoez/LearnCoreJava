@@ -4,13 +4,7 @@ public class Student {
     private int idNumber;
     private String name;
 
-    Student(int idNumber, String name){
-        this.idNumber = idNumber;
-        this.name = name;
-    }
-
-    Student()
-    {
+    public Student(){
 
     }
 

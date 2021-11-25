@@ -69,8 +69,8 @@
         parent class reference type of variable is used to refer to a child class object.
         4. Encapsulation -
         We can hide direct access to data by using
-        private key and we can access private data by using getter and
-        setter method.
+        private keyword and we can access private data by using getter and
+        setter methods.
 4. String methods e.g isBlank
 5. Java Collections i.e lists,sets, maps
 6. Java Naming conventions
@@ -136,6 +136,7 @@
         4)An abstract class can contain either 0 or more abstract method.
 
 10. Java Type casting:
+    i. Data Type Casting/ Primitive casting
         - Widening Casting - (automatic) converting a smaller type to a large type.
             e.g byte -> short -> char -> int -> long -> float -> double
 
@@ -147,3 +148,29 @@
 
             double myDouble = 8.0;
             int myInt = (int) myDouble; // manual casting
+    ii. Class Type Casting/ Non Primitive casting
+        - Upcasting - casting sub class type to super class class type(child to parent class)
+        - Downcasting - casting super class type to sub class class type(parent to child class)
+11. Java Operators:
+        - Arithmetic operators: -
+            perform common mathematical operations.
+            e.g % returns the division remainder 8 % 3 = 2
+        - Logical operators:
+            && - (Logical and) returns true if both statements are true
+            || - (Logical OR) returns true if one of the statements is true
+            ! - (Logical Not) returns false if the result is true. Reverses the outcome/result.
+
+12. Java Strings:
+        - used for storing text. It contains a collection of characters surrounded by double quotes.
+        e.g String greeting = "Hello";
+
+        STRING LENGTH
+        - can be obtained through this method length()
+        e.g greeting.length() = 7
+
+        FIND A CHARACTER IN A STRING
+        - the indexOf() returns the index(position) of the first occurrence of a specified text in a string
+        including whitespace
+        e.g String txt = "Please locate where 'locate' occurs!";
+            System.out.println(txt.indexOf("locate")); // Outputs 7
+
