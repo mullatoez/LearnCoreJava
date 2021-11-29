@@ -174,3 +174,21 @@
         e.g String txt = "Please locate where 'locate' occurs!";
             System.out.println(txt.indexOf("locate")); // Outputs 7
 
+13. Java Static Keyword
+    - It means that the particular member belongs to a type itself , rather than to an instance of that type.
+    e.g Class Foo {
+    static void alpha(){
+
+        }
+
+        void beta(){
+
+        }
+    }
+
+    Foo.alpha() - is accessible
+    Foo.beta() - is not accessible
+
+    To get access to beta() method we do this....
+    Foo foo = new Foo();
+    foo.beta()
